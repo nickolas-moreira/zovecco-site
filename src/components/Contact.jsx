@@ -4,7 +4,7 @@ function Contact() {
 
     console.log("FORM CLICKED 🔥");
 
-    await fetch("http://localhost:5001/api/contact", {
+    await fetch("https://zovecco-site.onrender.com/api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
