@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #F8F9FA;
+  color: #212529;
+}
+
+/* NAV */
+nav {
+  background: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* SECTIONS */
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+/* BUTTONS */
+button {
+  padding: 12px 20px;
+  margin-top: 20px;
+  border: none;
+  background: #212529;
+  color: #E9ECEF;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.75;
+  transform: translateY(-1px);
+}
+
+/* 📱 MOBILE */
+@media (max-width: 768px) {
+  section {
+    padding: 60px 16px;
+  }
+
+  nav {
+    padding: 12px 16px;
+  }
+
+  nav h2 {
+    font-size: 18px;
+  }
+
+  nav button {
+    font-size: 13px;
+    padding: 8px 10px;
+    margin-top: 0;
+    width: auto;
+  }
+}
